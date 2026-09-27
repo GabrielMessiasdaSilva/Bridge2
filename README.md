@@ -27,37 +27,11 @@ src/
 └── cliente/
     └── Main.java
 ```
+## Diagramas
 
-## Diagrama de classes
+Os diagramas de classe e de sequência utilizados na implementação estão disponíveis no arquivo abaixo:
 
-```mermaid
-classDiagram
-    class Relatorio {
-      <<abstract>>
-      -FormatoExportacao exportador
-      #Relatorio(FormatoExportacao exportador)
-      +setExportador(FormatoExportacao exportador) void
-      +gerarRelatorio() void
-    }
-    class RelatorioVendas
-    class RelatorioRH
-    class FormatoExportacao {
-      <<interface>>
-      +desenharCabecalho(String titulo) void
-      +desenharCorpo(List~String~ dados) void
-      +finalizarArquivo() void
-    }
-    class ExportadorPdf
-    class ExportadorXlsx
-    class ExportadorHtml
-
-    Relatorio <|-- RelatorioVendas
-    Relatorio <|-- RelatorioRH
-    FormatoExportacao <|.. ExportadorPdf
-    FormatoExportacao <|.. ExportadorXlsx
-    FormatoExportacao <|.. ExportadorHtml
-    Relatorio o--> FormatoExportacao : Bridge
-```
+[Baixar/visualizar diagramas do padrão Bridge (PDF)](docs/diagramas/diagramas-bridge.pdf)
 
 ## Injecao de dependencia
 
