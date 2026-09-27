@@ -2,6 +2,8 @@
 
 Projeto academico em Java que aplica o padrao **Bridge** ao modulo de relatorios.
 
+Projeto Feito por : Gabriel Messias e João Pedro Oliveira
+
 ## Problema resolvido
 
 O sistema precisa gerar os relatorios de **Vendas** e **Desempenho de RH** nos formatos **PDF**, **XLSX** e **HTML**. Sem Bridge, cada combinacao exigiria uma classe, como `RelatorioVendasPdf` ou `RelatorioRHHHtml`.
