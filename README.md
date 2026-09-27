@@ -29,9 +29,13 @@ src/
 ```
 ## Diagramas
 
-Os diagramas de classe e de sequência utilizados na implementação estão disponíveis no arquivo abaixo:
+### Diagrama de classes
 
-[Baixar/visualizar diagramas do padrão Bridge (PDF)](docs/diagramas/diagramas-bridge.pdf)
+![Diagrama de classes do padrão Bridge](docs/diagramas/diagrama1.png)
+
+### Diagrama de sequência
+
+![Diagrama de sequência do padrão Bridge](docs/diagramas/diagrama2.png)
 
 ## Injecao de dependencia
 
