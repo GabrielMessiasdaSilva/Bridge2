@@ -5,6 +5,7 @@ import java.util.List;
 public class ExportadorPdf implements FormatoExportacao {
     @Override
     public void desenharCabecalho(String titulo) {
+        // Por enquanto, o PDF é representado por mensagens no console.
         System.out.println("[PDF] Cabeçalho: " + titulo);
     }
 
